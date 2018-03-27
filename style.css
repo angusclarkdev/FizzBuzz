@@ -1,0 +1,40 @@
+html {
+  height: 100vh;
+  font-size: 16px;
+}
+
+body {
+  height: inherit;
+}
+#container {
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+  text-decoration: underline;
+}
+
+.fizz {
+  color: green;
+}
+.buzz {
+  color: red;
+}
+.fizzbuzz {
+  color: gold;
+}
+
+ul {
+  padding: 0;
+}
+ul > li {
+  font-size: 2rem;
+list-style: none;
+padding-bottom: 1rem;
+}
